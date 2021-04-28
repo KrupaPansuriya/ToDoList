@@ -1,55 +1,30 @@
 <html>
 
 <head>
-    
+    <title>ToDo list</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/9070936a10.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap" rel="stylesheet">
 
 </head>
-
+<header>
+    <div class="header">
+        <h1 style="text-align: center">ToDo List</h1>   
+      </div>
+  </header>
 <body>
-
-    <header>
-        <div class="header-group">
-            <div id="menu-toggle" class="header-btn">
-                <i class="fa fa-bars"></i>
-            </div>
-
-            <button class="ui-button"><i class="fa fa-plus"></i> New</button>
-        </div>
-
-        <div class="header-group">
-            <div id="search" class="header-btn">
-                <i class="fa fa-search"></i>
-            </div>
-            <div id="options" class="header-btn">
-                <i class="fa fa-gear"></i>
-            </div>
-            <div id="refresh" class="header-btn">
-                <i class="fa fa-refresh"></i>
-            </div>
-        </div>
-    </header>
-
     <div id="side-nav">
         <div>
             <div class="nav-btn nav-btn_active">
-                <a>Home <span><i class="fa fa-home"></i></span></a>
+                <a>Home<span><i class="fa fa-home"></i></span></a>
             </div>
             <div class="nav-btn">
-                <a>Important <span><i class="fa fa-star"></i></span></a>
+                <a>Important<span><i class="fa fa-star"></i></span></a>
             </div>
             <div class="nav-btn">
-                <a>Personal <span><i class="fa fa-user"></i></span></a>
+                <a>Project<span><i class="fa fa-briefcase"></i></span></a>
             </div>
-            <div class="nav-btn">
-                <a>Work <span><i class="fa fa-briefcase"></i></span></a>
-            </div>
-        </div>
-        <div id="account" class="nav-btn">
-            <a>Account <i class="fa fa-fingerprint"></i></a>
         </div>
     </div>
 
@@ -57,10 +32,10 @@
         <div class="content-card">
             <div class="card-top">
                 <div class="content-card-header">
-                    <input class="list-title" value="To Do"></input>
+                    <input class="list-title" value="Items"></input>
                 </div>
                 <ul class="list">
-                    <li class="no-items">Looks like you're all done!</li>
+                    <!--<li class="no-items">Looks like you're all done!</li> -->
                 </ul>
             </div>
             <div class="card-bottom">
